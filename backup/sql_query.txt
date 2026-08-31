@@ -1,0 +1,35 @@
+ALTER TABLE `configurations` ADD `search_meta` LONGTEXT NULL AFTER `watermark`;
+ALTER TABLE `configurations` ADD `header_meta` TEXT NULL AFTER `search_meta`;
+
+ALTER TABLE `countries` ADD `status` BOOLEAN NOT NULL DEFAULT FALSE AFTER `wikiDataId`;
+ALTER TABLE `cities` ADD `status` BOOLEAN NOT NULL DEFAULT FALSE AFTER `wikiDataId`;
+ALTER TABLE `states` ADD `status` BOOLEAN NOT NULL DEFAULT FALSE AFTER `wikiDataId`;
+
+UPDATE `countries` SET `status` = '1' WHERE `countries`.`id` = 198;
+UPDATE `cities` SET `status` = '1' WHERE country_id = 198;
+UPDATE `states` SET `status` = '1' WHERE country_id = 198;
+
+ALTER TABLE `users` ADD `social_links` TEXT NULL AFTER `stripe`;
+
+ALTER TABLE `advertises` ADD `transaction_id` VARCHAR(255) NULL AFTER `views`;
+ALTER TABLE `advertises_promotions` CHANGE `paid` `paid` BOOLEAN NULL DEFAULT FALSE;
+
+
+ALTER TABLE `configurations` ADD `startup_meta` TEXT NULL AFTER `header_meta`;
+
+UPDATE `configurations` SET `startup_meta` = '{\"top_image\":\"http:\\/\\/slgoo.test\\/storage\\/photos\\/1\\/ssslogo-white.png\",\"top_image_alt\":\"Top Image Alt\",\"image\":\"http:\\/\\/slgoo.test\\/storage\\/photos\\/1\\/banners2.png\",\"image_alt\":\"Image Alt\",\"heading_1\":\"Buy and Sell\",\"heading_2\":\"EveryThing\",\"text\":\"At the Best Prices!\",\"privacy_text\":\"By continuing the use of the app you agree to\",\"privacy_link_text\":\"Privacy Policy.\",\"privacy_link\":\"#\",\"btn_1_text\":\"I want to Buy\",\"btn_1_link\":\"#\",\"btn_2_text\":\"I want to Sell\",\"btn_2_link\":\"#\"}' WHERE `configurations`.`id` = 1;
+
+/* 4-7-25 */
+ALTER TABLE `users` ADD `chats` BOOLEAN NOT NULL DEFAULT TRUE AFTER `social_links`;
+ALTER TABLE `users` ADD `feedback` BOOLEAN NOT NULL DEFAULT TRUE AFTER `social_links`;
+ALTER TABLE `users` ADD `reason` TEXT NULL AFTER `chats`;
+ALTER TABLE `users` ADD `reason_details` TEXT NULL AFTER `reason`;
+ALTER TABLE `users` ADD `website` TEXT NULL AFTER `reason_details`;
+ALTER TABLE `users` ADD `gender` VARCHAR(255) NULL AFTER `website`;
+
+
+/* 5-8-25 */
+ALTER TABLE `pages` ADD `category_id` INT NULL AFTER `parent_id`;
+
+/* 22-5-25 */
+ALTER TABLE `advertise_availability` ADD `reason_type` VARCHAR(255) NULL AFTER `user_id`, ADD `reason_desc` VARCHAR(255) NULL AFTER `reason_type`;

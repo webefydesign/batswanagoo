@@ -1,0 +1,734 @@
+
+.tab-heads {
+    display: flex;
+}
+.all-listing-total.profil-listss ul li {
+  padding: 0;
+}
+.tab-heads h3 {
+    font-size: 19px;
+    flex: 0 0 20%;
+max-width: 20%; 
+margin: 0;
+align-self: center;
+font-weight: 600;
+}
+.puser-items {
+  padding-bottom: 5px;
+}
+.puser-items li:last-child a {
+  border: none;
+}
+.fc-email {
+  display: flex;
+}
+.fw-switch__container {
+  width: 26px;
+  height: 9px;
+  border-radius: 6px;
+  background-color: #99b2bf;
+  cursor: pointer;
+  transition: background-color .2s;
+  position: relative;
+}
+.rmD {
+  display: flex;
+  justify-content: space-between;
+}
+.rmD label {
+  align-self: center;
+  margin-bottom: 0;
+}
+.rmD .btn-group {
+  box-shadow: none;
+}
+.rmD .btn-secondary:not(:disabled):not(.disabled).active {
+  color: #fff;
+background-color: #1eaf38;
+border-color: #1eaf38;
+box-shadow: none;
+}
+.rmD .btn-secondary {
+  color: #000;
+  box-shadow: none;
+  background-color: #ddd;
+}
+.fw-switch__container {
+  width: 34px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #c2e8c6;
+}
+.fw-switch__container::before {
+  background-color: #00b53f;
+  transform: translateX(13px);
+}
+.fw-switch__container::before {
+  transform: translateX(17px);
+}
+.fc-email input {
+  width: calc(100% - 60px);
+  margin-right: 12px;
+}
+.fc-email button {
+  background: none;
+border: 1px solid #ddd;
+width: 50px;
+height: 40px;
+text-align: center;
+border-radius: 4px;
+}
+.fc-email button i {
+  position: relative;
+}
+.fc-email button i:before {
+  position: relative;
+  font-family: 'Font Awesome 5 Free';
+}
+.panel-group {
+margin-bottom: 20px;
+}
+.panel {
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid transparent;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-default {
+border-color: rgb(235, 235, 235);
+}
+.panel-group .panel {
+margin-bottom: 0;
+border-radius: 4px;
+}
+.panel-heading {
+padding: 10px 15px;
+border-bottom: 1px solid transparent;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+.panel-group .panel-heading {
+border-bottom: 0;
+border-bottom-color: currentcolor;
+}
+.panel-default > .panel-heading {
+color: #333;
+background-color: #ffff;
+border-color: #ddd;
+}
+.panel-body {
+border-top:1px solid rgb(235, 235, 235);
+padding: 15px;
+}
+.panel-default > .panel-heading {
+color: #333;
+background-color: #fff;border-bottom: 0;
+border-color: #ddd;
+padding: 15px 20px;
+}
+.avr {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.avr {
+position: relative;
+}
+.avr img {
+align-self: start;
+width: 60px;
+height: 60px;
+margin-bottom: 20px;
+border-radius: 50%;
+object-fit: cover;
+margin:0 auto 10px;
+}
+.avr > strong {
+font-weight: 600;
+font-size: 18px;
+
+
+}
+.puser-items i.fa:before {
+font-family: 'Font Awesome 5 Free';
+position: absolute;
+font-size: 14px;
+top: 3px;
+color: #9d9a98;
+font-weight: 500;
+}
+.sets-div i:before {
+font-family: 'Font Awesome 5 Free';
+position: absolute;
+font-size: 14px;
+top: 3px;
+color: #fff;
+font-weight: 500;
+}
+.sets-div {
+
+right: -13px;
+top: 0px;
+}
+.sets-div i {
+position: relative;
+}
+.sets-div a {
+background: #1eaf38;
+font-size: 14px;
+color: #fff;
+display: inline-flex;
+font-size: 11px;
+position: relative;
+padding: 2px 5px;
+border-radius: 4px;
+}
+.sets-div a:before {
+  content: "\f0ad";
+color: #fff;
+font-size: 15px;
+padding: 8px 6px;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
+position: absolute;
+top: -9px;
+left: -3px;
+}
+.adicon {
+  position: relative;
+}
+.adicon:before {
+  content: "\f0ad";
+color: #000;
+font-size: 15px;
+padding: 8px 6px;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
+position: absolute;
+top: 0;
+left: 0;
+}
+.listicon {
+  position: relative;
+}
+.listicon:before {
+   content: "\f03a";
+color: #000;
+font-size: 15px;
+padding: 8px 6px;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
+position: absolute;
+top: 0;
+left: 0;
+}
+.performicon {
+  position: relative;
+}
+.performicon:before {
+   content: "\f621";
+color: #000;
+font-size: 15px;
+padding: 8px 6px;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
+position: absolute;
+top: 0;
+left: 0;
+}
+.feedicon {
+position: relative;  }
+.feedicon:before {
+   content: "\f118";
+color: #000;
+font-size: 15px;
+padding: 8px 6px;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
+position: absolute;
+top: 0;
+left: 0;
+}
+.faqicon {
+  position: relative;
+}
+.faqicon:before {
+  content: "\f059";
+color: #000;
+font-size: 15px;
+padding: 8px 6px;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
+position: absolute;
+top: 0;
+left: 0;
+}
+.sets-div strong {
+padding-left: 17px;
+color: #fff;
+font-weight: 500;
+}
+.m-container.forprfile .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+  min-height: 490px;
+}
+.puser-items a {
+font-size: 14px;
+display: flex;
+padding: 11px 0;
+padding-left: 0px;
+border-bottom: 1px solid #dddddd82;
+padding-left: 20px;
+}
+.puser-items a:before {
+  color: #1eaf38;
+} 
+.puser-items a:hover span {
+  color: #1eaf38!important;
+}
+.puser-items span {
+padding-left: 14px;
+color: #000;
+}
+.puser-items a i {
+position: relative;
+}
+.pds {
+display: flex;
+justify-content: space-between;
+}
+.pds h3 {
+font-size: 19px;
+margin: 0;
+align-self: center;
+font-weight: 600;
+}
+.pds label {
+font-size: 16px;
+line-height: 16px;
+background-color: rgba(61,184,58,.3);
+color: #00b53f;
+padding: 5px 20px;
+align-self: center;
+line-height: 20px;
+height: auto;
+margin: 0;
+border-radius: 7px;
+}
+.s-prf {
+position: relative;margin: 0 auto;
+width: 82px;
+}
+.s-prf img {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.s-prf i {
+position: absolute;
+right: 0px;
+bottom: 30px;
+
+}
+.s-prf i:before {
+font-family: 'Font Awesome 5 Free';
+}
+.s-prf input {
+opacity: 0;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+.setarrow {
+display: flex;
+border-bottom: 1px solid #ddd;
+margin: -16px -15px 19px;
+padding: 13px 12px 13px;
+background: #eee;
+border-radius: 4px 4px 1px 1px;
+}
+.setarrow a {
+display: flex;
+}
+.setarrow i {
+position: relative;
+}
+.setarrow i:before {
+font-family: 'Font Awesome 5 Free';
+content: '';
+background: url('https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png');
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+width: 16px;
+height: 16px;
+background-size: contain;
+background-repeat: no-repeat;
+left: 0;
+top: 4px;
+}
+
+.setarrow strong {
+padding-left: 25px;
+}
+.ps-ul {
+
+}
+.ps-ul ul {
+list-style: none;
+}
+.ps-ul ul li a {
+font-size: 14px;
+color: #000;
+border-bottom: 1px solid #dddddd82;
+padding: 11px 0;
+display: block;
+}
+.ps-ul {
+box-shadow: 0px 0px 1px #0000004f;
+padding: 2px 15px;
+margin-bottom: 16px;
+}
+.ps-ul ul li:last-child a {
+border:none;
+}
+.sal-save {
+  color: #fff;
+border-radius: 5px;
+margin-left: 0px;
+border: none;
+width: 100%;
+padding: 5px 15px;
+background: #1eaf38;
+}
+.p-forme {
+max-width: 330px;
+margin:23px auto;
+}
+.p-forme.b-btm {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.p-forme legend {
+font-size: 14px;
+font-weight: 500;flex: 0 0 60%;
+margin: 0;color: black;
+}
+.pf-divs textarea::placeholder {
+  color: #000;
+}
+.rmD label img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.p-emails strong {
+  font-weight: 500;
+}
+.em-field {
+padding-bottom: 9px;
+padding-top: 9px;
+
+}
+.em-20 {
+  margin-bottom: 20px;
+}
+.em-field label {
+  font-weight: 500;
+  font-size: 13px;
+line-height: 15px;
+}
+.p-emails {
+ max-width: 420px;
+margin: 23px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+.pf-divs {
+display: flex;margin-bottom: 3px;
+justify-content: space-between;
+}
+.p-forme p {
+  line-height: 19px;
+}
+.pf-divs small {
+align-self: center;
+font-size: 12px;
+}
+.chatss small {
+  font-size: 12px;
+}
+.rmlabel label {
+  font-weight: 600;
+  line-height: 20px;
+  color: #000;
+}
+.p-forme .form-control {
+height: auto;
+font-size: 14px;
+border-color: #c6c6c6b5;
+padding: 6px 17px;
+}
+.p-forme select.form-control {
+-moz-appearance:auto;
+font-size: 14px;
+}
+.d-name {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.d-name i:before {
+  font-family: 'Font Awesome 5 Free';
+top: 5px;
+text-align: center;
+left: 10px;
+}
+.d-name button {
+  background: none;
+position: relative;
+border: 1px solid #ddd;
+width: 40px;
+height: 36px;
+border-radius: 4px;
+}
+.d-name button span {
+  position: absolute;
+top: 0;
+left: 0;
+}
+.slustext {
+  width: calc(100% - 47px);
+  display: none;
+}
+.timss {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+.timss small {
+  font-weight: 600;
+}
+.t-right {
+  flex: 1;
+padding: 0 0px;
+}
+.t-left {
+  flex: 1;
+padding-right:15px;
+}  
+
+
+.containercks b {
+  font-size: 13px;
+  color:#1eaf38;
+  font-weight: 500;
+  position: relative;
+}
+.containercks {
+ width: 44px;
+ padding-top: 5px;
+  display: flex;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containercks input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.containercks .checkmark {
+  position: absolute;
+top: 0;
+left: 0;
+height: 30px;
+width: 43px;
+background: none;
+box-shadow: none;
+background-color: transparent;
+border:1px #1eaf38 solid;
+border-radius: 4px;
+animation: none;
+}
+.containercks:hover b {
+color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.containercks:hover input ~ .checkmark {
+  background-color: #1eaf38;
+}
+.containercks:hover input .checkmark b {
+  color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containercks input:checked ~ .checkmark {
+  background-color: #1eaf38;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containercks input:checked ~ .checkmark:after {
+  display: none;
+}
+
+/* Style the checkmark/indicator */
+.containercks .checkmark:after {
+ left: 7px;
+top: 6px;
+width: 6px;
+height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.checkTime ul {
+  display: flex;
+}
+.checkTime ul li {
+  margin-right: 4px;
+  flex: 1;
+}
+.myAdtabs .nav.nav-tabs a {
+ padding: 6px 6px;
+ justify-content: center;
+ display: flex;
+font-size: 14px;border-radius: 8px;
+}
+
+
+.myAdtabs {
+  flex: 0 0 81%;
+}
+.myAdtabs .nav.nav-tabs a.greenlink {
+  color: #1eaf38;
+}
+.myAdtabs .nav.nav-tabs a.yellowlink {
+  color:#ffbc65;
+}
+.myAdtabs .nav.nav-tabs a.redlink {
+  color: #fc2533;
+}
+.myAdtabs .nav.nav-tabs a.blacklink {
+  color: #000000;
+}
+.myAdtabs .nav.nav-tabs a.greylink {
+  color: #6c8ea0;
+}
+.myAdtabs .nav.nav-tabs a.whitelink {
+  color: #6c8ea0;
+}
+
+
+.myAdtabs .nav.nav-tabs a.greenlink.active {
+  color: #fff;
+  background: #1eaf38;
+}
+.myAdtabs .nav.nav-tabs a.yellowlink.active {
+  color:#fff; background: #ffbc65;
+}
+.myAdtabs .nav.nav-tabs a.redlink.active {
+  color: #fff; background: #fc2533;
+}
+.myAdtabs .nav.nav-tabs a.blacklink.active {
+  color: #fff; background: #000000;
+}
+.myAdtabs .nav.nav-tabs a.greylink.active {
+  color: #fff; background: #6c8ea0;
+}
+.myAdtabs .nav.nav-tabs a.whitelink.active {
+  color: #fff; background: #6c8ea0;
+}
+
+.myAdtabs .nav.nav-tabs a small {
+  font-size: 11px;
+display: block;
+align-self: center;
+}
+
+.tab-content.pf-tabcontent {
+  border: none;
+  padding: 0;
+}
+.tab-content.pf-tabcontent table {
+  border: 1px solid rgb(235, 235, 235);
+}
+.tab-content.pf-tabcontent .table.table-striped tr td {
+  padding:6px 9px;
+  font-size: 12px;  color: #313131;
+}
+.tab-content.pf-tabcontent .table.table-striped tr th {
+  font-size: 13px;
+  padding: 12px 9px;  color: #313131;
+}
+.tab-content.pf-tabcontent .pname strong {
+  font-size: 12px;
+  color: #313131;
+}
+.tab-content.pf-tabcontent .featured {
+  display: inline-block;
+  margin: 0;
+  margin-left: 0px;
+  background: green;
+  vertical-align: middle;
+  line-height: 1;
+  align-self: center;
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 6px 2px;
+  border-radius: 10px;
+  margin-left: 9px;
+}
+.tab-content.pf-tabcontent .badgelabel {
+  background: #3c3c3c;
+  font-size: 10px;
+  border-radius: 20px;
+  color: #fff;
+  padding: 2px 8px 2px;
+  margin: 0;
+}
+.pf-tabcontent .badge.badge-warning {
+  background: red;
+  color: #fff;
+}
+.pf-tabcontent .badge.badge-declined {
+   background: #000;
+  color: #fff;
+}
+.pf-tabcontent .badge.badge-closed {
+  background: #7998a8;
+  color: #fff;
+}
+.pf-tabcontent .badge.badge-pending {
+  background: #ffc172;
+  color: #000;
+}

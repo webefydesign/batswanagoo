@@ -1,0 +1,141 @@
+.chartWrapper {
+  margin-bottom: 70px;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #1EAF38;
+  background-color: #1EAF38;
+}
+
+.performance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.performance h1 {
+  padding-bottom: 0;
+}
+
+.per-switch {
+  display: flex;
+}
+
+.per-switch .custom-control {
+  align-self: center;
+  margin-left: 54px;
+}
+
+.per-switch .custom-control-label {
+  color: #fff;
+}
+
+.dateRow {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.dateRow select {
+  background: #fff;
+}
+
+.all-list-bre .sec-all-list-bre.perf {
+  position: relative;
+}
+
+.all-list-bre .sec-all-list-bre.perf select {
+  -moz-appearance: auto;
+}
+
+.all-list-bre.searchbanner {
+  padding-bottom: 34px;
+}
+
+.chart-container {
+  margin: 0 auto;
+  margin-top: 0px;
+  /* width: 950px;*/
+  padding: 0px;
+}
+
+.stats {
+  display: flex;
+  margin-top: 30px;
+}
+
+.stats>div {
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.impressions {
+  color: white;
+  background: black;
+}
+
+.visitors {
+  color: black;
+  background: #ccc;
+}
+
+.phone_views {
+  color: black;
+  background: orange;
+}
+
+.chat_requests {
+  color: white;
+  background: red;
+}
+
+.stats>div>span {
+  display: block;
+  font-size: 120%;
+}
+
+.stats>div>strong {
+  font-size: 80%;
+}
+
+.legend-container {
+  padding: 15px 0;
+  font-size: 80%;
+}
+
+.legend-container>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 0px;
+  padding: 0px;
+}
+
+.legend-container>ul>li {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.legend-container>ul>li>span {
+  display: inline-block;
+  height: 15px;
+  margin-right: 10px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.legend-container>ul>li>p {
+  margin: 0;
+  padding: 0;
+}
+
+.stat {
+  cursor: pointer;
+}
+.stat.hidden {
+  text-decoration: line-through;
+  background-color: gray !important;
+  color: #444;
+}

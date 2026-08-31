@@ -1,0 +1,226 @@
+.img_validation {
+    background: #fff9ea;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.fetching_fields {
+    font-size: 13px;
+    padding: 0px 0px 30px 0px;
+}
+
+.currency_input {
+    position: relative;
+}
+
+.currency_input input {
+    padding-left: 60px;
+}
+
+.currency_s {
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    background: #1eaf38;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 22px;
+}
+
+.login-reg {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    border: solid 2px #1eaf38;
+    border-radius: 5px;
+    background: #f8fff9;
+}
+
+.error-msg {
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.google_btn {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: #8d8d8d;
+    background: white;
+    border-radius: 4px;
+    border: solid 1px #cacaca;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.google_btn img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.charCount {
+    position: absolute;
+    color: #1eaf38;
+    font-size: 11px;
+    bottom: 29px;
+    z-index: 999;
+    right: 10px;
+}
+
+.charCount2 {
+    bottom: 8px !important;
+    right: 22px !important;
+}
+
+.firstCategory{
+    height: fit-content;
+    position: relative;
+}
+
+.form-group{
+    float: none !important;
+}
+
+.categoryMessage{
+    font-size: 12px;
+    position: absolute;
+    bottom: -23px;
+    margin: 0px;
+}
+button.prev-step, button.next-step {
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 6px 27px;
+    background: #036dbf;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+button.next-step {
+    padding: 8px 27px;
+    font-size: 20px;
+    background: #1eaf38;
+    margin-bottom: 10px;
+    width: 90%;
+}
+button.next-step:disabled {
+    background: #abc5b0;
+}
+
+#postad-sidebar {
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #3aaf38;
+    width: 100%;
+    text-align: left;
+    position: sticky;
+    margin-top: 0;
+    top: 110px;
+}
+.post-ad-sidebar-menu {
+    width: 100%;
+}
+.rightside-heading h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.post-ad-sidebar-menu .postad-cat-item {
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+}
+.post-ad-sidebar-menu .postad-cat-item a {
+    color: #3aaf38;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.post-ad-sidebar-menu .postad-cat-item a i {
+    margin-right: 10px;
+}
+.post-ad-sidebar-menu .postad-cat-item a i img {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+/* .postad-cat-item span {
+    right: 6px;
+    position: absolute;
+} */
+.post-ad-sidebar-menu .postad-cat-item .postad-cat-sub-menu {
+    background: transparent;
+    display: none;
+}
+.post-ad-sidebar-menu .postad-cat-item .postad-cat-sub-menu a {
+    padding-left: 80px;
+    color: #3d3d3d;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px 0px 50px;
+    line-height: 40px;
+}
+.post-ad-sidebar-menu .postad-cat-item a i img {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+.postForm {
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* Match Bootstrap form-control */
+.select2-container .select2-selection--single {
+    height: 38px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    background-color: #fff;
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Rendered text */
+.select2-container .select2-selection--single .select2-selection__rendered {
+    color: #212529;
+    line-height: 24px;
+    padding-left: 0;
+}
+
+/* Arrow positioning */
+.select2-container .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+    right: 10px;
+}
+@media screen and (max-width: 768px) {
+    .categoryMessage {
+        font-size: 12px;
+        position: relative;
+        bottom: 0;
+        margin: 0px;
+    }
+}

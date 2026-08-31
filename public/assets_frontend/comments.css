@@ -1,0 +1,90 @@
+.comment-section{
+    border-top: 2px solid #006EBF;
+    padding: 15px 0px;
+}
+.comment-card {
+    display: flex;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .profile-img img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background: #ccc;
+  }
+  
+  .comment-content {
+    margin-left: 10px;
+  }
+  
+  .comment-header {
+    font-size: 14px;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .date {
+    color: #777;
+    font-size: 13px;
+  }
+  
+  .comment-text {
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .comment-form-inp input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #E0E6F5;
+  }
+
+  .comment-form {
+    max-width: 900px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .comment-form textarea{
+    height: 150px;
+  }
+
+  .comment-form button {
+    background-color: #006EBF;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    padding: 10px 25px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-form button:hover {
+    background-color: #006fbfce;
+  }
+  
