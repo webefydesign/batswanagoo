@@ -12,7 +12,7 @@
 <meta property="og:image" content="{{$seo['og']['image']??''}}">
 {{-- <meta property="og:site_name" content="Your Website Name"> --}}
 @endisset
-<meta property="og:logo" content="https://slgoo.sl/storage/photos/1/OGImage/logo-small.png" />
+<meta property="og:logo" content="https://batswanagoo.co.bw/storage/photos/1/OGImage/logo-small.png" />
 @isset($seo['twitter_tag'])
 <!-- Twitter Card Tags -->
 <meta name="twitter:card" content="{{$seo['twitter']['card']??''}}">

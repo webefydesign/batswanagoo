@@ -121,8 +121,8 @@ class UserController extends Controller
     public function customer_edit($id)
     {
         $data = User::find($id);
-        $states = getStatesByCountryName('Sierra Leone');
-        $cities = getCitiesByStateName($data->state ?? '', 'Sierra Leone');
+        $states = getStatesByCountryName('Botswana');
+        $cities = getCitiesByStateName($data->state ?? '', 'Botswana');
         return view('backend.customers.edit', compact('data', 'states', 'cities'));        
     }
     

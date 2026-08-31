@@ -1,5 +1,5 @@
 @extends('layouts.backend')
-@section('title', 'Create Salone Goo Faqs')
+@section('title', 'Create Batswana Goo Faqs')
 @section('customStyles')
 <link rel="stylesheet" href="{{asset('assets_backend/js/plugins/select2/css/select2.min.css')}}">
 <style>
@@ -36,14 +36,14 @@
           <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center py-2">
             <div class="flex-grow-1">
               <h1 class="h3 fw-bold mb-1">
-                Salone Goo Faqs
+                Batswana Goo Faqs
               </h1>
               <ol class="breadcrumb breadcrumb-alt">
                 <li class="breadcrumb-item">
                   <a class="link-fx" href="{{route('dashboard')}}">Dashboard</a>
                 </li>
                 <li class="breadcrumb-item">
-                  <a class="link-fx" href="{{route('salonegoo_faqs.index')}}">Salone Goo Faqs</a>
+                  <a class="link-fx" href="{{route('salonegoo_faqs.index')}}">Batswana Goo Faqs</a>
                 </li>
                 <li class="breadcrumb-item" aria-current="page">
                   Create

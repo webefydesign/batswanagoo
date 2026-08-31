@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title>@yield('title') | Salone Goo</title>
+    <title>@yield('title') | Batswana Goo</title>
 
     <meta name="author" content="Asif Rasool">
     <link rel="icon" type="image/jpg" href="{{asset('fav.jpg')}}">

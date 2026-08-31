@@ -17,7 +17,7 @@
 @if(!empty($seo['og']['image']))
 <meta property="og:image" content="{{ $seo['og']['image'] }}">
 @endif
-<meta property="og:site_name" content="{{ env('Website_Name', 'SLGOO') }}">
+<meta property="og:site_name" content="{{ env('Website_Name', 'Batswana Goo') }}">
 @endif
 
 <!-- Twitter Card Tags -->

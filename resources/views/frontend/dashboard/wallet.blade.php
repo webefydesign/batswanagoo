@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'My Balance | Salone Goo')
+@section('title', 'My Balance | Batswana Goo')
 @section('customStyles')
     <style>
     .all-list-sh .eve-box {

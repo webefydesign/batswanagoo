@@ -39,10 +39,10 @@
                     <div class="row count-render-html countingbg">
                         @if (isset($all_parent_categories) && isset($category))
                             <h1>{{ allChildCount($category) }} Ads <small>in
-                                    {{ $all_parent_categories[count($all_parent_categories) - 1]['name'] ?? 'Salone Goo' }}</small></h1>
+                                    {{ $all_parent_categories[count($all_parent_categories) - 1]['name'] ?? 'Batswana Goo' }}</small></h1>
                             <a href="javascript:;" class="btn-show-filters-aa"></a>
                         @else
-                            <h1>{{ $ads->total() }} Ads <small>in Salone Goo</small></h1>
+                            <h1>{{ $ads->total() }} Ads <small>in Batswana Goo</small></h1>
                         @endif
                     </div>
                 </div>

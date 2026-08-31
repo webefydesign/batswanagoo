@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Chat | Salone Goo')
+@section('title', 'Chat | Batswana Goo')
 @section('customStyles')
 <link rel="stylesheet" href="{{ asset('assets_frontend/css/chat.css') }}">
 @endsection

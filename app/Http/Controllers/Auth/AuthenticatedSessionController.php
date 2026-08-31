@@ -105,8 +105,8 @@ class AuthenticatedSessionController extends Controller
 
         $to = $data['email'];
         $general_meta = getConfigurations();
-        $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-        $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';
+        $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+        $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';
         try {
             Mail::to($to)->send(new EmailVerification($user, $from, $from_mail));
         } catch (\Exception $e) {
@@ -128,8 +128,8 @@ class AuthenticatedSessionController extends Controller
                 $message = "Your Have Verified, Please Login";
                 $data = $check->toArray();
                 $to = $data['email'];
-                $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';
+                $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';
                 Mail::send('emails.registration', $data, function ($m) use ($to, $from, $from_mail) {
                     $m->from($from_mail, $from);
                     $m->to($to)->subject('Your account is successfully verified');

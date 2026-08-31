@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Feedback' . ' | Salone Goo')
+@section('title', 'Feedback' . ' | Batswana Goo')
 @section('customStyles')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">

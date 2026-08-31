@@ -226,8 +226,8 @@ class AdminController extends Controller
             try {
                 $advertise->load('user', 'category');
                 $adUrl = url(optional($advertise->category)->getSlug(optional($advertise->category)->slug) . '/' . $advertise->slug);
-                $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';
+                $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';
 
                 $advArray = $advertise->toArray();
                 $advArray['adUrl'] = $adUrl;
@@ -366,9 +366,9 @@ class AdminController extends Controller
         $advertise = Advertise::with(['category', 'gallery'])->findOrFail($id);
         $categories = Categories::where('is_active', 1)->get();
         
-        // Get states and cities for Sierra Leone (fixed country)
-        $states = getStatesByCountryName('Sierra Leone');
-        $cities = getCitiesByStateName($advertise->state ?? '', 'Sierra Leone');
+        // Get states and cities for Botswana (fixed country)
+        $states = getStatesByCountryName('Botswana');
+        $cities = getCitiesByStateName($advertise->state ?? '', 'Botswana');
         
         return view('backend.ads.edit', compact('advertise', 'categories', 'states', 'cities'));
     }
@@ -401,7 +401,7 @@ class AdminController extends Controller
             'payment_type' => $request->payment_type,
             'price' => $request->price,
             'status' => $request->status,
-            'country' => 'Sierra Leone', // Fixed country
+            'country' => 'Botswana', // Fixed country
         ]);
 
         if($request->has('images') || $request->has('deleted_images')) {
@@ -423,7 +423,7 @@ class AdminController extends Controller
 
     public function getCitiesByStateName($stateName)
     {
-        $cities = getCitiesByStateName($stateName, 'Sierra Leone');
+        $cities = getCitiesByStateName($stateName, 'Botswana');
         return response()->json($cities);
     }
 

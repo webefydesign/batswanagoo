@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'My Adds | Salone Goo')
+@section('title', 'My Adds | Batswana Goo')
 @section('customStyles')
     <style>
         .alert-success {
@@ -78,7 +78,7 @@
                                         </fieldset>
                                         <hr>
                                         <p><small>Chats help your customers to get in touch with you through messages on
-                                                Salone Goo platform. Enable this option to get messages from new
+                                                Batswana Goo platform. Enable this option to get messages from new
                                                 customers.</small></p>
                                         <hr>
                                     </div>

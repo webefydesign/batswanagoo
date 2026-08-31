@@ -8,7 +8,7 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="">
     <!-- App title -->
-    <title>slgoo</title>
+    <title>Batswana Goo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <style>
         .account-pages {
@@ -64,7 +64,7 @@
                 <div class="account-pages mt-5">
                     <div class="text-center account-logo-box" style="background-color: #643a93;">
                         <a href="javascript:void(0);" class="d-inline-block">
-                            <img src="{{asset('breez-logo.png')}}" alt="SLGOO" height="36"
+                            <img src="{{asset('breez-logo.png')}}" alt="Batswana Goo" height="36"
                                 style="background: #fff; padding: 5px; border-radius: 10px; border: 1px solid #383435;">
                         </a>
                     </div>

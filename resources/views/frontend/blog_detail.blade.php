@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title',(!empty($data->meta_title))?$data->meta_title:$data['title'].' | Salone Goo')
+@section('title',(!empty($data->meta_title))?$data->meta_title:$data['title'].' | Batswana Goo')
 @section('seo')
     @include('frontend.seo', [ 'description'=>$data->meta_description??'', 'schema'=>$data['schema_code']??'', 'seo'=>$data['seo_meta']??[] ])
 @endsection

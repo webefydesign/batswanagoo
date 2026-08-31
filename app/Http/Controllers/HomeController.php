@@ -272,8 +272,8 @@ class HomeController extends Controller
         try{
             $general_meta = getConfigurations();
             $emails = $general_meta['contact_mails'];
-            $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-            $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';
+            $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+            $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';
             $to = explode(",", trim($emails));
             Mail::send('emails.contact', $data, function ($m) use($to, $from, $from_mail) {
                 $m->from($from_mail, $from);
@@ -593,8 +593,8 @@ class HomeController extends Controller
         try {
             $to = $adv->user->email;
             $general_meta = getConfigurations();
-            $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-            $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';
+            $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+            $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';
 
             Mail::send('emails.message', $offer, function ($m) use ($to, $from, $from_mail) {
                 $m->from($from_mail, $from);
@@ -720,8 +720,8 @@ class HomeController extends Controller
                 $data = $newuser->toArray();
                 $data['hash'] = $rand;
                 $to = $data['email'];
-                $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';
+                $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';
                 Mail::send('emails.registration', $data, function ($m) use ($to, $from, $from_mail) {
                     $m->from($from_mail, $from);
                     $m->to($to)->subject('Your account is successfully registered');

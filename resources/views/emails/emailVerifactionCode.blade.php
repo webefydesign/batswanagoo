@@ -133,7 +133,7 @@
                                 <tr>
                                     <td align="center" valign="top">
                                         <a href="{{url("/")}}">
-                                      <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-white.png" width="200" alt="" />
+                                      <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-white.png" width="200" alt="" />
                                     </td>
                                 </tr>
                                 <tr>

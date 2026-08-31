@@ -17,7 +17,7 @@ class AdvertiseGallery extends Model
 
     /**
      * Two-line text watermark across the center of the image:
-     * "POSTED ON SALONE GOO" above the poster's name, both semi-transparent
+     * "POSTED ON BATSWANA GOO" above the poster's name, both semi-transparent
      * white - matching the reference design. Applied only to the
      * large/original image - the one actually shown in the lightbox/detail
      * view - so the small grid thumbnails stay clean.
@@ -49,7 +49,7 @@ class AdvertiseGallery extends Model
             $nameSize = max(18, (int) round($width * 0.05));
             $lineGap = (int) round($nameSize * 0.4);
 
-            $image->text('POSTED ON SALONE GOO', $centerX, $centerY - $lineGap, function ($font) use ($fontPath, $topSize) {
+            $image->text('POSTED ON BATSWANA GOO', $centerX, $centerY - $lineGap, function ($font) use ($fontPath, $topSize) {
                 $font->filename($fontPath);
                 $font->size($topSize);
                 $font->color('#ffffff47'); // white, ~70% opacity

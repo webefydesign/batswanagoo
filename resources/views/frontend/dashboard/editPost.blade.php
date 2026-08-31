@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'My Adds | Salone Goo')
+@section('title', 'My Adds | Batswana Goo')
 @section('customStyles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <style>
@@ -165,7 +165,7 @@
                                     <div class="states-box">
                                         {{-- @if(isset($adv->country)) --}}
                                         <select name="state" class="form-control fetchStates stateSelect" data-location="city" required="">
-                                            @foreach(getStatesByCountryName('Sierra Leone') as $state)
+                                            @foreach(getStatesByCountryName('Botswana') as $state)
                                             <option value="{{ $state->id }}" @if(isset($adv->state) && $adv->state == $state->name) selected @endif>{{ $state->name }}</option>
                                             @endforeach
                                         </select>

@@ -2,7 +2,7 @@
 <html >
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
-<title>Salonegoo</title>
+<title>Batswana Goo</title>
 <style type="text/css">
     body{width: 100%; background-color: #006ebf; margin:0; padding:0; -webkit-font-smoothing: antialiased;mso-margin-top-alt:0px; mso-margin-bottom-alt:0px; mso-padding-alt: 0px 0px 0px 0px;}
     p,h1,h2,h3,h4{margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -51,7 +51,7 @@
                                 <td align="center" valign="top">
                                   
                                     <a href="{{url("/")}}">
-                                          <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-white.png"  alt="" />
+                                          <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-white.png"  alt="" />
                                     </a>
                                   
                                 </td>

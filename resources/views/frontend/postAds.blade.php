@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Post Your Ads' . ' | Salone Goo')
+@section('title', 'Post Your Ads' . ' | Batswana Goo')
 
 @push('push_css')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -296,7 +296,7 @@
                                                 </select> --}}
                                                 <select class="form-control fetchLocation stateSelect" name="state" required data-location="city">
                                                     <option value="" selected disabled>Select a State</option>
-                                                    @foreach (getStatesByCountryName('Sierra Leone') as $k => $state)
+                                                    @foreach (getStatesByCountryName('Botswana') as $k => $state)
                                                         <option value="{{ $state->id }}" @if(isset($post->state) && $post->state === $state->name) selected @endif>{{ $state->name }}</option>
                                                     @endforeach
                                                     {{-- @if(isset($post->country))

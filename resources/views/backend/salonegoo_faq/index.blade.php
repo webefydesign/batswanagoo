@@ -1,5 +1,5 @@
 @extends('layouts.backend')
-@section('title', 'Salone Goo Faqs')
+@section('title', 'Batswana Goo Faqs')
 @section('customStyles')
 <link rel="stylesheet" href="{{asset('assets_backend/js/plugins/sweetalert2/sweetalert2.min.css')}}">
 @endsection
@@ -12,14 +12,14 @@ $l_sort = $_GET['sort']??'desc';
       <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center py-2">
         <div class="flex-grow-1">
           <h1 class="h3 fw-bold mb-1">
-            Salone Goo Faqs
+            Batswana Goo Faqs
           </h1>
           <ol class="breadcrumb breadcrumb-alt">
             <li class="breadcrumb-item">
               <a class="link-fx" href="{{route('dashboard')}}">Dashboard</a>
             </li>
             <li class="breadcrumb-item" aria-current="page">
-              Salone Goo Faqs
+              Batswana Goo Faqs
             </li>
           </ol>
         </div>
@@ -41,7 +41,7 @@ $l_sort = $_GET['sort']??'desc';
     @endif
     <div class="block block-rounded">
       <div class="block-header block-header-default">
-        <h3 class="block-title">All Salone Goo Faqs</h3>
+        <h3 class="block-title">All Batswana Goo Faqs</h3>
         <div class="block-options">
           <div class="dropdown">
             <button type="button" class="btn-block-option" id="dropdown-ecom-filters" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

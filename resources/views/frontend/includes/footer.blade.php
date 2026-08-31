@@ -169,7 +169,7 @@
         <div class="cr">
            <div class="container">
               <div class="row">
-                 <p>Copyright &copy; {{date('Y')}}, Salone Goo. Powered by <a href="https://googrp.com/" target="_blank">Goo Group</a></p>
+                 <p>Copyright &copy; {{date('Y')}}, Batswana Goo. Powered by <a href="https://googrp.com/" target="_blank">Goo Group</a></p>
               </div>
            </div>
         </div>

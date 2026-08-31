@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Social Link | Salone Goo')
+@section('title', 'Social Link | Batswana Goo')
 @section('customStyles')
     <style>
         .alert-success {

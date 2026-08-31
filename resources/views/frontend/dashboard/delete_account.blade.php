@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'My Adds | Salone Goo')
+@section('title', 'My Adds | Batswana Goo')
 @section('customStyles')
     <style>
         .alert-success {
@@ -76,7 +76,7 @@
                                             <select class="form-control mb-3" name="reason">
                                                 <option>I have a duplicate account</option>
                                                 <option>I get too many notifications</option>
-                                                <option>Nothing interesting on Salone Goo</option>
+                                                <option>Nothing interesting on Batswana Goo</option>
                                                 <option>Other Reason</option>
                                             </select>
 

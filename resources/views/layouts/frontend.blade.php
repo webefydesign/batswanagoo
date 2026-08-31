@@ -153,13 +153,13 @@
                 <div class="st-row">
                  <div class="row">
                     <div class="col-sm-12">
-                         <div class="mds"><img src="{{ url(($start_up['top_image'])??'#') }}" alt="{{ ($start_up['top_image_alt'])??'Salone Goo' }}"></div>
+                         <div class="mds"><img src="{{ url(($start_up['top_image'])??'#') }}" alt="{{ ($start_up['top_image_alt'])??'Batswana Goo' }}"></div>
                     </div>
                  </div>
                  <div class="row">
                       <div class="col-sm-6" style="align-self: center;">
                           <div class="mdmg">
-                              <img src="{{ url(($start_up['image'])??'#') }}" alt="{{ ($start_up['image_alt'])??'Salone Goo' }}">
+                              <img src="{{ url(($start_up['image'])??'#') }}" alt="{{ ($start_up['image_alt'])??'Batswana Goo' }}">
                           </div>
                       </div>
                       <div class="col-sm-6">

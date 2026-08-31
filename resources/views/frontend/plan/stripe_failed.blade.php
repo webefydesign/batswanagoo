@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Plan Purchase Failed | Salone Goo')
+@section('title', 'Plan Purchase Failed | Batswana Goo')
 @section('customStyles')
     <style>
         .cm-container {
@@ -181,11 +181,11 @@
                             <li>Check card details: Double-check the accuracy of the card information provided, including the card number, expiration date, and CVV code. If necessary, update the information and attempt the payment again.</li>
                             <li>Contact your bank: Reach out to your bank or credit card issuer to inquire about any potential issues with your account or card that could be causing the payment failure.</li>
                         </ol>
-                        <p>If you have taken the above steps and the issue persists, we kindly ask you to contact our customer support team at <b>supports@salonegoo.com</b>. Our dedicated support staff will be more than happy to assist you in resolving this matter promptly.</p>
+                        <p>If you have taken the above steps and the issue persists, we kindly ask you to contact our customer support team at <b>supports@batswanagoo.co.bw</b>. Our dedicated support staff will be more than happy to assist you in resolving this matter promptly.</p>
                         <p>We apologize for any inconvenience this may have caused and appreciate your understanding. Thank you for choosing our services, and we look forward to assisting you with your payment soon.</p>
                         <p>Best regards,</p>
                         <p><b>Customer Experience Team</b></p>
-                        <p><b>Salone Goo</b></p>
+                        <p><b>Batswana Goo</b></p>
                         <a href="{{route('home')}}"><i class="material-icons" style="margin-left: 0px;width: 38px;">arrow_backward</i> Back To Home </a>
                         </div>
                     </div>

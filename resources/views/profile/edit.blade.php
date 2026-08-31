@@ -214,7 +214,7 @@
                                     {{-- <div class="row">
                                         <div class="col-sm-12">
                                             <div class="form-group">
-                                                <label class="containerchecks">I don't want to receive newsletters and promo offers from Salone Goo
+                                                <label class="containerchecks">I don't want to receive newsletters and promo offers from Batswana Goo
                                                   <input type="checkbox" checked="checked">
                                                   <span class="checkmarkcontain"></span>
                                                 </label>

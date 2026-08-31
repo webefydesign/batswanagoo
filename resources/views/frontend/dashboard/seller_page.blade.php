@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', $user->name.' | Salone Goo')
+@section('title', $user->name.' | Batswana Goo')
 @section('customStyles')
     <style>
         .alert-success {
@@ -72,14 +72,14 @@
 @endsection
 @section('seo')
     <meta name="description" content="{{ Str::limit(strip_tags($user->about_company ?? ''), 125) }}">
-    <meta property="og:title" content="{{$user->name ?? $user->first_name}} | Salone Goo">
+    <meta property="og:title" content="{{$user->name ?? $user->first_name}} | Batswana Goo">
     <meta property="og:description" content="{{ Str::limit(strip_tags($user->about_company ?? ''), 125) }}">
     <meta property="og:url" content="{{route('shop',$user->slug)}}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{asset('uploads/profile/'.$user->image)}}">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{$user->name ?? $user->first_name}} | Salone Goo">
+    <meta name="twitter:title" content="{{$user->name ?? $user->first_name}} | Batswana Goo">
     <meta name="twitter:description" content="{{ Str::limit(strip_tags($user->about_company ?? ''), 125) }}">
     <meta name="twitter:image" content="{{asset('uploads/profile/'.$user->image)}}">
     <meta name="twitter:url" content="{{route('shop',$user->slug)}}">

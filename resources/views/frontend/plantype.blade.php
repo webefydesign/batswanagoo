@@ -1,11 +1,11 @@
 @extends('layouts.frontend')
 
-@section('title', 'Select Your Plan Type' . ' | Salone Goo')
+@section('title', 'Select Your Plan Type' . ' | Batswana Goo')
 
 @section('content')
     <div class="m-container" style="margin-bottom: 60px;">
         <div class="container">
-            <h1> Increase your sales with Salone Goo Premium Services! </h1>
+            <h1> Increase your sales with Batswana Goo Premium Services! </h1>
         </div>
 
         <section class="pay-a">

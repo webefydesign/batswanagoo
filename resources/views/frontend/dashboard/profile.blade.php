@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'My Adds | Salone Goo')
+@section('title', 'My Adds | Batswana Goo')
 @section('customStyles')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/css/intlTelInput.css">
 @php
@@ -362,7 +362,7 @@
                                                 @endif
                                             </div>
                                             <input id="phone" type="tel" name="phone" class="form-control"
-                                                value="{{ old('phone') ?? $user->phone }}" placeholder="25 123456" required>
+                                                value="{{ old('phone') ?? $user->phone }}" placeholder="71 123 456" required>
                                         </fieldset>
                                     </div>
 
@@ -391,7 +391,7 @@
                                                 <small class="badge badge-danger">required</small>
                                                 @endif
                                             </div>
-                                            <input type="hidden" name="country" class="form-control" value="Sierra Leone" />
+                                            <input type="hidden" name="country" class="form-control" value="Botswana" />
                                             {{-- <select class="form-control fatchStates autoSelectCountry" name="country" data-location="state"
                                                 required>
                                                 <option value="" selected disabled style="display:none">Select your country</option>
@@ -404,7 +404,7 @@
                                                 {{-- @if ($user->country != null) --}}
                                                     <select name="state" class="form-control fatchStates stateSelect"
                                                         data-location="city" required="">
-                                                        @foreach(getStatesByCountryName('Sierra Leone') as $state)
+                                                        @foreach(getStatesByCountryName('Botswana') as $state)
                                                             <option value="{{ $state->id }}" @if ($user->state == $state->name) selected @endif>{{ $state->name }}</option>
                                                         @endforeach
                                                     </select>
@@ -413,7 +413,7 @@
                                             <div class="cities-box">
                                                 @if ($user->state != null)
                                                     <select name="city" class="form-control citySelect" required="">
-                                                        @foreach(getCitiesByStateName($user->state, 'Sierra Leone') as $city)
+                                                        @foreach(getCitiesByStateName($user->state, 'Botswana') as $city)
                                                         <option value="{{ $city->id }}" @if(isset($user->city) && $user->city == $city->name) selected @endif>{{ $city->name }}</option>
                                                         @endforeach
                                                     </select>
@@ -427,14 +427,14 @@
                                                     </select>
                                                     <select name="city" class="form-control citySelect" required="">
                                                         <option value="" selected disabled>Select a City</option>
-                                                        @foreach (getCitiesByStateName($user['state'] ?? old('state'), 'Sierra Leone') as $city)
+                                                        @foreach (getCitiesByStateName($user['state'] ?? old('state'), 'Botswana') as $city)
                                                             <option value="{{ $city->id }}" @if ($user->city == $city->name) selected @endif>{{ $city->name }}</option>
                                                         @endforeach
                                                     </select>
                                                     @else
                                                     <select name="city" class="form-control citySelect" required="">
                                                         <option value="" selected disabled>Select a City</option>
-                                                        @foreach (getCitiesByStateName($user['state'] ?? old('state'), 'Sierra Leone') as $city)
+                                                        @foreach (getCitiesByStateName($user['state'] ?? old('state'), 'Botswana') as $city)
                                                             <option value="{{ $city->id }}" @if ($user->city == $city->name) selected @endif>{{ $city->name }}</option>
                                                         @endforeach
                                                     </select>
@@ -553,7 +553,7 @@
                                         <fieldset>
                                             <div class="pf-divs">
                                                 <label class="containerchecks dont">I don't want to receive newsletters and
-                                                    promo offers from Salone Goo
+                                                    promo offers from Batswana Goo
                                                     <input type="checkbox" name="subscribe" value="1"
                                                         @if ($user->subscriber != null) checked="checked" @endif>
                                                     <span class="checkmarkcontain"></span>
@@ -609,13 +609,13 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/intlTelInput.min.js"></script>
     <script>
-        // Phone field locked to Sierra Leone, same as the contact form.
+        // Phone field locked to Botswana, same as the contact form.
         $(document).ready(function () {
             const phoneInput = document.getElementById('phone');
             if (phoneInput) {
                 window.intlTelInput(phoneInput, {
-                    initialCountry: 'sl',
-                    onlyCountries: ['sl'],
+                    initialCountry: 'bw',
+                    onlyCountries: ['bw'],
                     separateDialCode: true,
                     utilsScript: 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/utils.js',
                 });

@@ -53,7 +53,7 @@
                                 <td align="center" valign="top">
                                   
                                     <a href="{{url("/")}}">
-                                        <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-white.png"  alt="" />
+                                        <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-white.png"  alt="" />
                                   </a>
                                 
                                 </td>
@@ -102,7 +102,7 @@
                                               <a href="{{url("/")}}">
 			                                    
                                   <a href="{{url("/")}}">
-                                    <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-white.png"  alt="" />
+                                    <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-white.png"  alt="" />
                               </a>
                             
 		                                  	  </a>

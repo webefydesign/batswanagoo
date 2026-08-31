@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Change Email | Salone Goo')
+@section('title', 'Change Email | Batswana Goo')
 @section('customStyles')
     <style>
         .alert-success {

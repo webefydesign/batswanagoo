@@ -53,7 +53,7 @@
                                 <td align="center" valign="top">
                                  
                                     <a href="{{url("/")}}">
-                                        <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-white.png"  alt="" />
+                                        <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-white.png"  alt="" />
                                   </a>
                                 
                                 </td>
@@ -101,7 +101,7 @@
                                             <td align="center" valign="top" style="position: relative;">
                                               
                                   <a href="{{url("/")}}">
-                                    <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-white.png"  alt="" />
+                                    <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-white.png"  alt="" />
                               </a>
                             
                                             </td>
@@ -133,7 +133,7 @@
                                                 </p>
                                                 @endif
                                                 <p style="font-size: 15px;line-height: 26px;text-align: left;padding-top:30px;">
-                                                    You've Successfully completed registration for <b>{{env('MAIL_FROM_NAME') ?? 'Salone Goo'}}</b> with <b>{{$email}}</b>.
+                                                    You've Successfully completed registration for <b>{{env('MAIL_FROM_NAME') ?? 'Batswana Goo'}}</b> with <b>{{$email}}</b>.
                                                 </p>
                                                 <p style="font-size: 15px;line-height: 26px;text-align: left;padding-top:30px;">
                                                     Thank you,

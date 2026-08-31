@@ -184,7 +184,7 @@
                                                 <td align="center" valign="top" style="position: relative;">
                                                     
                                   <a href="{{url("/")}}">
-                                    <img editable="true" src="https://slgoo.sl/assets_frontend/img/logo-small.png"  alt="" />
+                                    <img editable="true" src="https://batswanagoo.co.bw/assets_frontend/img/logo-small.png"  alt="" />
                               </a>
                             
                                                 </td>
@@ -215,7 +215,7 @@
                                                     </p>
                                                     <p
                                                         style="font-size: 15px;line-height: 26px;text-align: left;padding-top:30px;">
-                                                        Thanks you for purchasing through <b>{{ (env('Website_Name'))??'slgoo' }}</b> . Please
+                                                        Thanks you for purchasing through <b>{{ (env('Website_Name'))??'Batswana Goo' }}</b> . Please
                                                         give a <a href="{{ route('feedback', $data->seller_id) }}"
                                                             target="_blank" style="color: #006ebf">feedback</a>
                                                         about our

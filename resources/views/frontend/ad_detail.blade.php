@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title',(!empty($data->meta_title))?$data->meta_title:$data['title'].' | Salone Goo')
+@section('title',(!empty($data->meta_title))?$data->meta_title:$data['title'].' | Batswana Goo')
 @section('seo')
     @include('frontend.ad_seo', [ 
         'description' => $data->meta_description ?? '', 
@@ -391,7 +391,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Phone No</label>
-                                            <input id="offer-phone" type="tel" name="phone" placeholder="25 123456" required
+                                            <input id="offer-phone" type="tel" name="phone" placeholder="71 123 456" required
                                                 form="myOfferForm">
                                         </div>
                                     </div>
@@ -852,13 +852,13 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/intlTelInput.min.js"></script>
     <script>
-        // "Make an offer" phone field, locked to Sierra Leone - same as the dashboard profile phone field.
+        // "Make an offer" phone field, locked to Botswana - same as the dashboard profile phone field.
         $(document).ready(function () {
             const offerPhoneInput = document.getElementById('offer-phone');
             if (offerPhoneInput) {
                 window.intlTelInput(offerPhoneInput, {
-                    initialCountry: 'sl',
-                    onlyCountries: ['sl'],
+                    initialCountry: 'bw',
+                    onlyCountries: ['bw'],
                     separateDialCode: true,
                     utilsScript: 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/utils.js',
                 });

@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Register | Salone Goo')
+@section('title', 'Register | Batswana Goo')
 @section('content')
 <section class=" login-reg">
 

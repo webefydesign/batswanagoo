@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Home | Salone Goo')
+@section('title', 'Home | Batswana Goo')
 @section('content')
 <!-- START -->
 <section>

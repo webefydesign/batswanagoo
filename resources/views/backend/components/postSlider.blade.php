@@ -34,7 +34,7 @@
                         <option value="" disabled selected style="display:none">Choose Any</option>
                         <option value="make" @if(isset($meta['type']) && $meta['type'] == 'make') selected @endif>Make</option>
                         <option value="makeModel" @if(isset($meta['type']) && $meta['type'] == 'makeModel') selected @endif>Make Model</option>
-                        {{-- <option value="faqs" @if(isset($meta['type']) && $meta['type'] == 'faqs') selected @endif>Salone Goo Faqs</option>
+                        {{-- <option value="faqs" @if(isset($meta['type']) && $meta['type'] == 'faqs') selected @endif>Batswana Goo Faqs</option>
 
 
                         <option value="safety" @if(isset($meta['type']) && $meta['type'] == 'safety') selected @endif>Safety</option> --}}

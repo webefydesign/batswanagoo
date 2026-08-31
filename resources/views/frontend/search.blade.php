@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
-@section('title', (!empty($data['seo']['meta_title']))?$data['seo']['meta_title']:$all_parent_categories[count($all_parent_categories) - 1]['name'].' | Salone Goo')
-{{-- @section('title', (!empty($data['seo']['meta_title']))?$data['seo']['meta_title']:$all_parent_categories[count($all_parent_categories) - 1]['name'].' | Salone Goo') --}}
+@section('title', (!empty($data['seo']['meta_title']))?$data['seo']['meta_title']:$all_parent_categories[count($all_parent_categories) - 1]['name'].' | Batswana Goo')
+{{-- @section('title', (!empty($data['seo']['meta_title']))?$data['seo']['meta_title']:$all_parent_categories[count($all_parent_categories) - 1]['name'].' | Batswana Goo') --}}
 @section('seo')
     @include('frontend.seo', [ 'description'=>$data['seo']['meta_desc']??'', 'schema'=>$data['seo']['schema_code']??'', 'seo'=>$data['seo']??[] ])
 @endsection

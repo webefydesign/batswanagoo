@@ -42,7 +42,7 @@
                                        @foreach ($categories as $category)
                                              <li>
                                                 <a href="{{ url(generateUrl($category->id, 'category')) }}">
-                                                   <!--<img class="iconi" src="https://slgoo.sl/public/assets_frontend/img/electronics.png">-->
+                                                   <!--<img class="iconi" src="https://batswanagoo.co.bw/public/assets_frontend/img/electronics.png">-->
                                                    <img class="iconi"
                                                          src="{{ url($category->icon_image ?? asset('assets_frontend/img/electronics.png')) }}">
                                                    <em>&nbsp;{{ $category->name }} -
@@ -135,7 +135,7 @@
                                        @endphp
                                        <li>
                                           {{ ($data['header_meta']['h_heading'])??'' }}
-                                             <span>Email us on: support@slgoo.sl</span>
+                                             <span>Email us on: support@batswanagoo.co.bw</span>
                                        </li>
                                        <li>
                                              <a href="{{ ($data['header_meta']['h_btn1_link'])??'#' }}"
@@ -308,7 +308,7 @@
                     <div class="head-pro">
                        <img src="{{asset('assets_frontend')}}/img/user/62736rn53themes.png" alt=""> <b>Profile by</b>
                        <br>
-                       <h4>Salone Goo</h4>
+                       <h4>Batswana Goo</h4>
                        <a href="#" class="fclick"></a>
                     </div>
                     <div class="db-menu">

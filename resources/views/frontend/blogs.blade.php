@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title',$seo['meta_title']??'Blogs | Salone Goo')
+@section('title',$seo['meta_title']??'Blogs | Batswana Goo')
 @section('seo')
     @include('frontend.seo', [ 'description'=>$seo['meta_description']??'', 'schema'=>$seo['schema_code']??'', 'seo'=>$seo??[] ])
 @endsection

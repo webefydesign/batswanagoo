@@ -345,8 +345,8 @@ class PostController extends Controller
                     $data['user'] = auth()->user();
                     // dd($data);
 
-                    $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                    $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';                
+                    $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                    $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';                
                     Mail::send('emails.plan', $data, function ($m) use ($to, $from, $from_mail) {
                         $m->from($from_mail, $from);
                         $m->to($to)->subject('New Plan Successfully Bought ' . $from);
@@ -438,8 +438,8 @@ class PostController extends Controller
                     $data['user'] = $user;
                     // dd($data);
 
-                    $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                    $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';                
+                    $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                    $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';                
                     Mail::send('emails.plan', $data, function ($m) use ($to, $from, $from_mail) {
                         $m->from($from_mail, $from);
                         $m->to($to)->subject('New Plan Successfully Bought ' . $from);
@@ -477,8 +477,8 @@ class PostController extends Controller
                     // $data['price'] = $plan_price;
                     // dd($data);
 
-                    $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                    $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';                
+                    $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                    $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';                
                     Mail::send('emails.plan', $data, function ($m) use ($to, $from, $from_mail) {
                         $m->from($from_mail, $from);
                         $m->to($to)->subject('New Plan Successfully Bought ' . $from);
@@ -609,8 +609,8 @@ class PostController extends Controller
             try {
                 $to = $adv->user->email;
                 $general_meta = getConfigurations();
-                $from = env('MAIL_FROM_NAME') ?? 'Salone Goo';
-                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@slgoo.sl';    
+                $from = env('MAIL_FROM_NAME') ?? 'Batswana Goo';
+                $from_mail = env('MAIL_FROM_ADDRESS') ?? 'noreply@batswanagoo.co.bw';    
 
                 $advArray = Advertise::where('id', $adv->id)->with('user', 'promotions', 'gallery')->first()->toArray();
                 $advArray['to_admin'] = 0;

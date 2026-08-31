@@ -81,7 +81,7 @@
                         <label for="state">State:<span class="required">*</span></label>
                         {{-- <input type="text" aria-required="true" name="fields_meta[state]" required maxlength="60"> --}}
                         <select name="fields_meta[state]" id="state" class="select2" required>
-                          @foreach(getStatesByCountryName('Sierra Leone') as $state)
+                          @foreach(getStatesByCountryName('Botswana') as $state)
                               <option value="{{ $state->id }}">{{ $state->name }}</option>
                           @endforeach
                          </select>
@@ -211,7 +211,7 @@
     const input = $("#phone");
     const countryCodeInput = $("#country_code");
     const iti = window.intlTelInput(input[0], {
-      initialCountry: "us", // Set default country to USA
+      initialCountry: "bw", // Set default country to Botswana
       separateDialCode: true, // Show dial code separately
       utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/utils.js", // for number formatting
     });

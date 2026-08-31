@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Plan Purchase Successfully | Salone Goo')
+@section('title', 'Plan Purchase Successfully | Batswana Goo')
 @section('customStyles')
     <style>
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

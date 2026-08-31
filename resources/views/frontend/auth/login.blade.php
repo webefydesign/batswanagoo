@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'Register | Salone Goo')
+@section('title', 'Register | Batswana Goo')
 @section('content')
 <section class=" login-reg">
 
@@ -48,7 +48,7 @@
                    </div>
                    <div class="col-md-12">
                      <hr>
-                     <a href="https://slgoo.sl/auth/google">
+                     <a href="https://batswanagoo.co.bw/auth/google">
                         <div class="google_btn">
                             <img src="{{asset('google.png')}}" alt=""> SignIn with Google
                         </div>
@@ -114,7 +114,7 @@
                    </form>
                    <div class="col-md-12">
                      <hr>
-                     <a href="https://slgoo.sl/auth/google">
+                     <a href="https://batswanagoo.co.bw/auth/google">
                         <div class="google_btn">
                             <img src="{{asset('google.png')}}" alt=""> Sign Up with Google
                         </div>

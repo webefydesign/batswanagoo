@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', 'My Wishlist | Salone Goo')
+@section('title', 'My Wishlist | Batswana Goo')
 @section('customStyles')
     <style>
 

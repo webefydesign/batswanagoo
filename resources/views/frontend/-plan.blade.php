@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Select Your Plan' . ' | Salone Goo')
+@section('title', 'Select Your Plan' . ' | Batswana Goo')
 
 @push('push_css')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.21.0/dist/sweetalert2.min.css" integrity="sha256-Hr+pC4Itl2fpZpbgDovrP2OKWz72NVCWLXGRRJg/mAo=" crossorigin="anonymous">

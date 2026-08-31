@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', $user->name . ' | Salone Goo')
+@section('title', $user->name . ' | Batswana Goo')
 @section('customStyles')
     <style>
     </style>

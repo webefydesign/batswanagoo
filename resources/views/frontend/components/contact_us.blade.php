@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="col-sm-12 form-group">
                                     <label>Telephone</label>
-                                    <input id="phone" type="tel" class="form-control" name="phone" placeholder="25 123456">
+                                    <input id="phone" type="tel" class="form-control" name="phone" placeholder="71 123 456">
                                     <input type="hidden" id="country_code" name="country_code" />
                                 </div>
                                 <div class="col-sm-12 form-group">
@@ -120,8 +120,8 @@
     const input = $("#phone");
     const countryCodeInput = $("#country_code");
     const iti = window.intlTelInput(input[0], {
-      initialCountry: "sl", // Default to Sierra Leone
-      onlyCountries: ["sl"], // Lock to Sierra Leone, no other country selectable
+      initialCountry: "bw", // Default to Botswana
+      onlyCountries: ["bw"], // Lock to Botswana, no other country selectable
       separateDialCode: true, // Show dial code separately
       utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/utils.js", // for number formatting
     });
