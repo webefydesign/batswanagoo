@@ -16,18 +16,18 @@
         @endif
         <div class="row">
 
-            @foreach(getStates(198) as $k => $state)
+            @foreach(getStates(29) as $k => $state)
                 <div class="col-md-12">
                     <div class="adverts_area">
-                        @php $cities = getCities(198, $state); @endphp
+                        @php $cities = getCities(29, $state); @endphp
                         <div class="ada_top">
                             <h4>{{$k}} Province</h4>
-                            <a href="{{url('categories?page=1&country=198&state='.$state)}}">See all {{$k}} cities (<span class="tblue">{{adsInLocation($k, 'state')}}</span>)</a>
+                            <a href="{{url('categories?page=1&country=29&state='.$state)}}">See all {{$k}} cities (<span class="tblue">{{adsInLocation($k, 'state')}}</span>)</a>
                         </div>
                         <div class="cities_sec">
                             <ul>
                                 @foreach($cities as $c => $city)
-                                <li><a href="{{url('categories?page=1&country=198&state='.$state.'&city='.$city)}}">{{$c}}</a> (<span class="tblue">{{adsInLocation($c, 'city')}}</span>)</li>
+                                <li><a href="{{url('categories?page=1&country=29&state='.$state.'&city='.$city)}}">{{$c}}</a> (<span class="tblue">{{adsInLocation($c, 'city')}}</span>)</li>
                                 @endforeach
                             </ul>
                         </div>

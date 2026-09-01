@@ -38,13 +38,13 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
       @if(config('app.env') == 'production')
       <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBB3XN6Q1B"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PE7KCFZSRC"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-LBB3XN6Q1B');
+            gtag('config', 'G-PE7KCFZSRC');
         </script>
         @endif
       <style>
